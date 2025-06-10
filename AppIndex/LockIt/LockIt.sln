@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.14.36202.13 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockIt", "LockIt\LockIt.csproj", "{0ADEF1D7-0511-409A-8386-E0C7598C94E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockIt", "LockIt\LockIt.csproj", "{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0ADEF1D7-0511-409A-8386-E0C7598C94E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0ADEF1D7-0511-409A-8386-E0C7598C94E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0ADEF1D7-0511-409A-8386-E0C7598C94E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0ADEF1D7-0511-409A-8386-E0C7598C94E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0ED63F86-4FBD-4C13-ACAF-BE948917712C}
+		SolutionGuid = {06AC35D5-B841-4ED4-90E0-4812D5DEF175}
 	EndGlobalSection
 EndGlobal

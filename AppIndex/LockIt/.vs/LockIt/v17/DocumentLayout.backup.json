@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\sahraoui\\source\\repos\\lockit\\lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|C:\\Users\\Sahraoui\\source\\repos\\LockIt\\lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\PasswordManager.cs",
+              "RelativeDocumentMoniker": "LockIt\\PasswordManager.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\PasswordManager.cs",
+              "RelativeToolTip": "LockIt\\PasswordManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:56:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "LockIt\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Login.Designer.cs",
+              "RelativeToolTip": "LockIt\\Login.Designer.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAADwv3UAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:48:52.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Signin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Signin.Designer.cs",
+              "RelativeDocumentMoniker": "LockIt\\Signin.Designer.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Signin.Designer.cs",
+              "RelativeToolTip": "LockIt\\Signin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:22:53.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Signin.cs",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Signin.cs",
+              "RelativeDocumentMoniker": "LockIt\\Signin.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Signin.cs",
+              "RelativeToolTip": "LockIt\\Signin.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:17:47.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordManager.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\PasswordManager.cs",
+              "RelativeDocumentMoniker": "LockIt\\PasswordManager.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\PasswordManager.cs [Conception]",
+              "RelativeToolTip": "LockIt\\PasswordManager.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:51:43.519Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Signin.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Signin.cs",
+              "RelativeDocumentMoniker": "LockIt\\Signin.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Signin.cs [Conception]",
+              "RelativeToolTip": "LockIt\\Signin.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:02:57.606Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Program.cs",
+              "RelativeDocumentMoniker": "LockIt\\Program.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Program.cs",
+              "RelativeToolTip": "LockIt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:41:17.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Login.cs",
+              "RelativeDocumentMoniker": "LockIt\\Login.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Login.cs [Conception]",
+              "RelativeToolTip": "LockIt\\Login.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:34:55.541Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Login.cs",
+              "RelativeDocumentMoniker": "LockIt\\Login.cs",
+              "ToolTip": "C:\\Users\\Sahraoui\\source\\repos\\LockIt\\LockIt\\Login.cs",
+              "RelativeToolTip": "LockIt\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:11:16.827Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
