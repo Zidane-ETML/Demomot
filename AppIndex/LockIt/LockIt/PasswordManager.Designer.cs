@@ -1,4 +1,6 @@
-﻿namespace LockIt
+﻿using System.Windows.Forms;
+
+namespace LockIt
 {
     partial class PasswordManager
     {
@@ -34,9 +36,12 @@
             Editbtn = new ToolStripMenuItem();
             Deletebtn = new ToolStripMenuItem();
             Savebtn = new ToolStripMenuItem();
-            Datagrid = new DataGridView();
+            Title = new DataGridViewTextBoxColumn();
+            Username = new DataGridViewTextBoxColumn();
+            Password = new DataGridViewTextBoxColumn();
+            dataGridView1 = new DataGridView();
             menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)Datagrid).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -83,22 +88,36 @@
             Savebtn.Size = new Size(138, 22);
             Savebtn.Text = "Save";
             // 
-            // Datagrid
+            // Title
             // 
-            Datagrid.BackgroundColor = SystemColors.Control;
-            Datagrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            Datagrid.GridColor = SystemColors.InactiveBorder;
-            Datagrid.Location = new Point(0, 27);
-            Datagrid.Name = "Datagrid";
-            Datagrid.Size = new Size(459, 284);
-            Datagrid.TabIndex = 1;
+            Title.HeaderText = "";
+            Title.Name = "Title";
+            // 
+            // Username
+            // 
+            Username.HeaderText = "";
+            Username.Name = "Username";
+            // 
+            // Password
+            // 
+            Password.HeaderText = "";
+            Password.Name = "Password";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(0, 27);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(459, 284);
+            dataGridView1.TabIndex = 1;
             // 
             // PasswordManager
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(459, 311);
-            Controls.Add(Datagrid);
+            Controls.Add(dataGridView1);
             Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MainMenuStrip = menuStrip1;
@@ -108,9 +127,10 @@
             MinimumSize = new Size(475, 350);
             Name = "PasswordManager";
             Text = "PasswordManager";
+            Load += PasswordManager_Load_1;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)Datagrid).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -120,9 +140,12 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem fichierToolStripMenuItem;
         private ToolStripMenuItem Newbtn;
-        private DataGridView Datagrid;
         private ToolStripMenuItem Editbtn;
         private ToolStripMenuItem Deletebtn;
         private ToolStripMenuItem Savebtn;
+        private DataGridViewTextBoxColumn Title;
+        private DataGridViewTextBoxColumn Username;
+        private DataGridViewTextBoxColumn Password;
+        private DataGridView dataGridView1;
     }
 }

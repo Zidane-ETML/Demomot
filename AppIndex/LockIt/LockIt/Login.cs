@@ -31,31 +31,30 @@ namespace LockIt
         {
             string username = UserName_Box.Text.Trim();
             string password = PassWord_box.Text.Trim();
+
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Veuillez remplir tous les champs.");
                 return;
             }
-            var userFile = "users.txt";
-            if (!File.Exists(userFile))
-            {
-                MessageBox.Show("Aucun utilisateur enregistré. Veuillez vous inscrire d'abord.");
-                return;
-            }
-            var existingUsers = File.ReadAllLines(userFile);
-            if (existingUsers.Any(line => line == $"{username}:{password}"))
+            
+            Entry entry = new Entry();
+            int userId = entry.AuthenticateUser(username, password);
+
+            if (userId != -1)
             {
                 MessageBox.Show("Connexion réussie !");
 
-                PasswordManager passwordManagerForm = new();
+                PasswordManager passwordManagerForm = new PasswordManager(userId);
                 passwordManagerForm.FormClosed += (s, args) => this.Close(); // Ferme l'application lorsque PasswordManager est fermé
                 passwordManagerForm.Show();
                 this.Hide();
-                // Ouvrir le gestionnaire de mots de passe ou autre action
+                // Ouvrir le gestionnaire de mots de passe ou autre acticoon
             }
             else
             {
                 MessageBox.Show("Nom d'utilisateur ou mot de passe incorrect.");
+
             }
         }
 

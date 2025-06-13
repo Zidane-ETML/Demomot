@@ -64,6 +64,7 @@
             // 
             NewUsername.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             NewUsername.Location = new Point(160, 156);
+            NewUsername.MaxLength = 60;
             NewUsername.Name = "NewUsername";
             NewUsername.Size = new Size(152, 23);
             NewUsername.TabIndex = 5;
@@ -72,6 +73,7 @@
             // 
             NewTitle.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             NewTitle.Location = new Point(160, 44);
+            NewTitle.MaxLength = 50;
             NewTitle.Name = "NewTitle";
             NewTitle.Size = new Size(152, 23);
             NewTitle.TabIndex = 4;
@@ -110,6 +112,7 @@
             // 
             NewPassword.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             NewPassword.Location = new Point(160, 268);
+            NewPassword.MaxLength = 60;
             NewPassword.Name = "NewPassword";
             NewPassword.Size = new Size(152, 23);
             NewPassword.TabIndex = 3;
@@ -132,6 +135,7 @@
             Addbtn.TabIndex = 2;
             Addbtn.Text = "Add";
             Addbtn.UseVisualStyleBackColor = true;
+            Addbtn.Click += Addbtn_Click;
             // 
             // NewEntry
             // 

@@ -12,7 +12,6 @@ namespace LockIt
 {
     public partial class Signin : Form
     {
-        private readonly string userFile = "users.txt";
         public Signin()
         {
             InitializeComponent();
@@ -28,20 +27,17 @@ namespace LockIt
                 return;
             }
 
-            if (!File.Exists(userFile))
-                File.Create(userFile).Close();
-
-            var existingUsers = File.ReadAllLines(userFile);
-
-            if (existingUsers.Any(line => line.StartsWith(username + ":")))
+            Entry entry = new Entry();
+            bool isRegistered = entry.RegisterUser(username, password);
+            if (isRegistered)
             {
-                MessageBox.Show("Ce nom d'utilisateur est déjà utilisé.");
-                return;
+                MessageBox.Show("Inscription réussie )");
+                this.Close();//Ferme le formulaire après avoir réussie l'inscription
             }
-
-            File.AppendAllText(userFile, $"{username}:{password}{Environment.NewLine}");
-            MessageBox.Show("Inscription réussie !");
-            this.Close();
+            else
+            {
+                MessageBox.Show("L'inscription a échoué. L'utilisateur existe peut-être déjà.");
+            }
         }
     }
 }
