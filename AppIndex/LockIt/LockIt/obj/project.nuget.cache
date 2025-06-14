@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XosElLDS1Qm3xXo8Clgl3F0hVRPhNpXfAJNlN0wtx1OlPI0VdBAAxwkykqic+JeEKGP4jgv4gWDPob9Zq5i4dw==",
+  "dgSpecHash": "M2b5khny6LV/FSLnqSQFi6bnAhpEVC3zI2tNCKfm7YFIVVsPVgWdXtpkV1RQVQELl/BwLjHZwh7WdAbk0TGLog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pd01wvj\\Desktop\\LockIt\\LockIt\\LockIt.csproj",
+  "projectFilePath": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\LockIt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pd01wvj\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\pd01wvj\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",

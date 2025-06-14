@@ -87,7 +87,7 @@ namespace LockIt
 
                     return true;
                 }
-                catch (MySqlException ex)
+                catch (MySqlException)
                 {
                     Console.WriteLine("Erreur: " + "Le nom d'utilisateur est déjà utilisé");
                     return false;

@@ -126,6 +126,7 @@
             Generatebtn.TabIndex = 1;
             Generatebtn.Text = "Generate";
             Generatebtn.UseVisualStyleBackColor = true;
+            Generatebtn.Click += Generatebtn_Click;
             // 
             // Addbtn
             // 

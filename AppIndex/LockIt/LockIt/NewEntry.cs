@@ -35,5 +35,16 @@ namespace LockIt
 
             this.Close();
         }
+        public static string GeneratePassword(int length = 12)
+        {
+            const string validChars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789!@#$%^&*()";
+            var random = new Random();
+            return new string(Enumerable.Repeat(validChars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+        private void Generatebtn_Click(object sender, EventArgs e)
+        {
+            NewPassword.Text = GeneratePassword();
+        }
     }
 }
