@@ -54,5 +54,10 @@ namespace LockIt
         {
             LoadPasswords();
         }
+
+        private void Editbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

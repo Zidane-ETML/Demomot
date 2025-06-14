@@ -65,27 +65,28 @@ namespace LockIt
             // Newbtn
             // 
             Newbtn.Name = "Newbtn";
-            Newbtn.Size = new Size(138, 22);
+            Newbtn.Size = new Size(180, 22);
             Newbtn.Text = "New";
             Newbtn.Click += Newbtn_Click;
             // 
             // Editbtn
             // 
             Editbtn.Name = "Editbtn";
-            Editbtn.Size = new Size(138, 22);
+            Editbtn.Size = new Size(180, 22);
             Editbtn.Text = "Edit";
+            Editbtn.Click += Editbtn_Click;
             // 
             // Deletebtn
             // 
             Deletebtn.Name = "Deletebtn";
-            Deletebtn.Size = new Size(138, 22);
+            Deletebtn.Size = new Size(180, 22);
             Deletebtn.Text = "Delete";
             // 
             // Savebtn
             // 
             Savebtn.Name = "Savebtn";
             Savebtn.ShortcutKeys = Keys.Control | Keys.S;
-            Savebtn.Size = new Size(138, 22);
+            Savebtn.Size = new Size(180, 22);
             Savebtn.Text = "Save";
             // 
             // Title
@@ -107,8 +108,10 @@ namespace LockIt
             // 
             dataGridView1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
             dataGridView1.Location = new Point(0, 27);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
             dataGridView1.Size = new Size(459, 284);
             dataGridView1.TabIndex = 1;
             // 

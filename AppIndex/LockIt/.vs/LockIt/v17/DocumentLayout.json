@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\passwordmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\passwordmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\lockit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\lockit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\lockit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\lockit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\newentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|c:\\users\\pd01wvj\\documents\\github\\demomot\\appindex\\lockit\\lockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5767E6-3DFB-4F60-A7AA-DC3CBED9DD33}|LockIt\\LockIt.csproj|solutionrelative:lockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,81 +58,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Signin.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Signin.cs",
               "RelativeDocumentMoniker": "LockIt\\Signin.cs",
               "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Signin.cs",
               "RelativeToolTip": "LockIt\\Signin.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAqwBMAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T12:17:47.471Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PasswordManager.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\PasswordManager.cs",
               "RelativeDocumentMoniker": "LockIt\\PasswordManager.cs",
               "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\PasswordManager.cs",
               "RelativeToolTip": "LockIt\\PasswordManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAADwvzsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T09:12:13.867Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PasswordManager.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\PasswordManager.Designer.cs",
-              "RelativeDocumentMoniker": "LockIt\\PasswordManager.Designer.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\PasswordManager.Designer.cs",
-              "RelativeToolTip": "LockIt\\PasswordManager.Designer.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAjwBYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T13:07:40.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Login.cs",
-              "RelativeDocumentMoniker": "LockIt\\Login.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Login.cs",
-              "RelativeToolTip": "LockIt\\Login.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAawDAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T14:11:16.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NewEntry.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\NewEntry.cs",
-              "RelativeDocumentMoniker": "LockIt\\NewEntry.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\NewEntry.cs",
-              "RelativeToolTip": "LockIt\\NewEntry.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAAC4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T13:36:03.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "NewEntry.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\NewEntry.cs",
               "RelativeDocumentMoniker": "LockIt\\NewEntry.cs",
@@ -144,13 +102,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "PasswordManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\PasswordManager.Designer.cs",
+              "RelativeDocumentMoniker": "LockIt\\PasswordManager.Designer.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\PasswordManager.Designer.cs",
+              "RelativeToolTip": "LockIt\\PasswordManager.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:07:40.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Login.cs",
+              "RelativeDocumentMoniker": "LockIt\\Login.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Login.cs",
+              "RelativeToolTip": "LockIt\\Login.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:11:16.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewEntry.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\NewEntry.cs",
+              "RelativeDocumentMoniker": "LockIt\\NewEntry.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\NewEntry.cs",
+              "RelativeToolTip": "LockIt\\NewEntry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:36:03.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Entry.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Entry.cs",
               "RelativeDocumentMoniker": "LockIt\\Entry.cs",
               "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Entry.cs",
               "RelativeToolTip": "LockIt\\Entry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBIAAAAQAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwEEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T13:08:13.571Z",
               "EditorCaption": ""
@@ -169,31 +166,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "LockIt",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\LockIt.csproj",
               "RelativeDocumentMoniker": "LockIt\\LockIt.csproj",
               "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\LockIt.csproj",
               "RelativeToolTip": "LockIt\\LockIt.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-10T06:49:20.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Program.cs",
-              "RelativeDocumentMoniker": "LockIt\\Program.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Program.cs",
-              "RelativeToolTip": "LockIt\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T13:41:17.865Z",
+              "WhenOpened": "2025-06-10T06:49:20.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "PasswordManager.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\PasswordManager.cs",
               "RelativeDocumentMoniker": "LockIt\\PasswordManager.cs",
@@ -204,8 +189,12 @@
               "EditorCaption": " [Conception]"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Signin.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Signin.cs",
               "RelativeDocumentMoniker": "LockIt\\Signin.cs",
@@ -214,6 +203,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T14:02:57.606Z",
               "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Program.cs",
+              "RelativeDocumentMoniker": "LockIt\\Program.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\Program.cs",
+              "RelativeToolTip": "LockIt\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:41:17.865Z"
             }
           ]
         }

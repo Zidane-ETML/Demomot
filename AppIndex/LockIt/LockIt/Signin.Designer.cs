@@ -35,6 +35,7 @@ namespace LockIt
             label1 = new Label();
             label2 = new Label();
             Signinbtn = new Button();
+            Hidebtn = new Button();
             SuspendLayout();
             // 
             // registeruserNamebox
@@ -46,6 +47,7 @@ namespace LockIt
             // 
             // registerPasswordbox
             // 
+            registerPasswordbox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             registerPasswordbox.Location = new Point(115, 174);
             registerPasswordbox.Name = "registerPasswordbox";
             registerPasswordbox.Size = new Size(236, 23);
@@ -81,11 +83,26 @@ namespace LockIt
             Signinbtn.UseVisualStyleBackColor = true;
             Signinbtn.Click += Signinbtn_Click;
             // 
+            // Hidebtn
+            // 
+            Hidebtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            Hidebtn.ImeMode = ImeMode.NoControl;
+            Hidebtn.Location = new Point(357, 173);
+            Hidebtn.MaximumSize = new Size(51, 23);
+            Hidebtn.MinimumSize = new Size(51, 23);
+            Hidebtn.Name = "Hidebtn";
+            Hidebtn.Size = new Size(51, 23);
+            Hidebtn.TabIndex = 7;
+            Hidebtn.Text = "Hide";
+            Hidebtn.UseVisualStyleBackColor = true;
+            Hidebtn.Click += Hidebtn_Click;
+            // 
             // Signin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(459, 311);
+            Controls.Add(Hidebtn);
             Controls.Add(Signinbtn);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -108,5 +125,6 @@ namespace LockIt
         private Label label1;
         private Label label2;
         private Button Signinbtn;
+        private Button Hidebtn;
     }
 }

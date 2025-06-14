@@ -125,10 +125,13 @@
   <data name="UserName_Box.Location" type="System.Drawing.Point, System.Drawing">
     <value>235, 134</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UserName_Box.MaxLength" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
   <data name="UserName_Box.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="UserName_Box.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>

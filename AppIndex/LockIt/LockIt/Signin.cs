@@ -39,5 +39,17 @@ namespace LockIt
                 MessageBox.Show("L'inscription a échoué. L'utilisateur existe peut-être déjà.");
             }
         }
+
+        private void Hidebtn_Click(object sender, EventArgs e)
+        {
+            if (registerPasswordbox.UseSystemPasswordChar == true)
+            {
+                registerPasswordbox.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                registerPasswordbox.UseSystemPasswordChar = true;
+            }
+        }
     }
 }
