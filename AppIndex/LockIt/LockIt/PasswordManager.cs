@@ -57,7 +57,52 @@ namespace LockIt
 
         private void Editbtn_Click(object sender, EventArgs e)
         {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
 
+                // Récupère les données de la ligne sélectionnée
+                string title = selectedRow.Cells["title"].Value.ToString();
+                string username = selectedRow.Cells["username"].Value.ToString();
+                string password = selectedRow.Cells["password"].Value.ToString();
+
+                // Ouvre un formulaire de modification avec les données existantes
+                NewEntry modifyEntryForm = new NewEntry(userId, title, username, password);
+                if (modifyEntryForm.ShowDialog() == DialogResult.OK)
+                {
+                    // Recharge les mots de passe pour mettre à jour le DataGridView
+                    LoadPasswords();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Veuillez sélectionner une entrée à modifier.");
+                LoadPasswords();
+            }
+            LoadPasswords();
+        }
+
+        private void Deletebtn_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
+                string title = selectedRow.Cells["title"].Value.ToString();
+
+                // Demande confirmation avant de supprimer
+                if (MessageBox.Show($"Êtes-vous sûr de vouloir supprimer l'entrée '{title}' ?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    Entry entry = new Entry();
+                    entry.DeletePassword(userId, title);
+
+                    // Recharge les mots de passe pour mettre à jour le DataGridView
+                    LoadPasswords();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Veuillez sélectionner une entrée à supprimer.");
+            }
         }
     }
 }

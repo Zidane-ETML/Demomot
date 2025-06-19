@@ -35,7 +35,6 @@ namespace LockIt
             Newbtn = new ToolStripMenuItem();
             Editbtn = new ToolStripMenuItem();
             Deletebtn = new ToolStripMenuItem();
-            Savebtn = new ToolStripMenuItem();
             Title = new DataGridViewTextBoxColumn();
             Username = new DataGridViewTextBoxColumn();
             Password = new DataGridViewTextBoxColumn();
@@ -57,7 +56,7 @@ namespace LockIt
             // 
             // fichierToolStripMenuItem
             // 
-            fichierToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Newbtn, Editbtn, Deletebtn, Savebtn });
+            fichierToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Newbtn, Editbtn, Deletebtn });
             fichierToolStripMenuItem.Name = "fichierToolStripMenuItem";
             fichierToolStripMenuItem.Size = new Size(37, 20);
             fichierToolStripMenuItem.Text = "File";
@@ -81,13 +80,7 @@ namespace LockIt
             Deletebtn.Name = "Deletebtn";
             Deletebtn.Size = new Size(180, 22);
             Deletebtn.Text = "Delete";
-            // 
-            // Savebtn
-            // 
-            Savebtn.Name = "Savebtn";
-            Savebtn.ShortcutKeys = Keys.Control | Keys.S;
-            Savebtn.Size = new Size(180, 22);
-            Savebtn.Text = "Save";
+            Deletebtn.Click += Deletebtn_Click;
             // 
             // Title
             // 
@@ -112,6 +105,7 @@ namespace LockIt
             dataGridView1.Location = new Point(0, 27);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.Size = new Size(459, 284);
             dataGridView1.TabIndex = 1;
             // 
@@ -145,7 +139,6 @@ namespace LockIt
         private ToolStripMenuItem Newbtn;
         private ToolStripMenuItem Editbtn;
         private ToolStripMenuItem Deletebtn;
-        private ToolStripMenuItem Savebtn;
         private DataGridViewTextBoxColumn Title;
         private DataGridViewTextBoxColumn Username;
         private DataGridViewTextBoxColumn Password;

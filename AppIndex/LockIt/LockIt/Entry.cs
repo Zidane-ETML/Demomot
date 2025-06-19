@@ -58,6 +58,40 @@ namespace LockIt
                 cmd.ExecuteNonQuery();
             }
         }
+        public void UpdatePassword(int userId, string title, string username, string password)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE t_entry SET username = @Username, password = @Password WHERE user_id = @UserId AND title = @Title";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@Username", username);
+                cmd.Parameters.AddWithValue("@Password", password);
+                cmd.Parameters.AddWithValue("@UserId", userId);
+                cmd.Parameters.AddWithValue("@Title", title);
+                cmd.ExecuteNonQuery();
+            }
+        }
+        public void DeletePassword(int userId, string title)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = "DELETE FROM t_entry WHERE user_id = @UserId AND title = @Title";
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                    cmd.Parameters.AddWithValue("@UserId", userId);
+                    cmd.Parameters.AddWithValue("@Title", title);
+                    cmd.ExecuteNonQuery();
+                }
+                catch (MySqlException ex)
+                {
+                    Console.WriteLine("Erreur lors de la suppression du mot de passe: " + ex.Message);
+                }
+            }
+        }
+
         public bool RegisterUser(string username, string password)
         {
             using (MySqlConnection connection = new MySqlConnection(connectionString))

@@ -149,7 +149,6 @@
             Controls.Add(NewEntryLayout);
             Name = "NewEntry";
             Text = "NewEntry";
-            Load += NewEntry_Load;
             NewEntryLayout.ResumeLayout(false);
             NewEntryLayout.PerformLayout();
             ResumeLayout(false);

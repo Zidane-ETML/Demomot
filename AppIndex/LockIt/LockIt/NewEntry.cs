@@ -13,15 +13,26 @@ namespace LockIt
     public partial class NewEntry : Form
     {
         private int userId;
+        private bool isModifyMode;
+
         public NewEntry(int userId)
         {
             InitializeComponent();
             this.userId = userId;
+            this.isModifyMode = false;
         }
 
-        private void NewEntry_Load(object sender, EventArgs e)
+        // Nouveau constructeur pour la modification
+        public NewEntry(int userId, string title, string username, string password)
         {
+            InitializeComponent();
+            this.userId = userId;
+            this.isModifyMode = true;
 
+            // Remplir les champs de texte avec les valeurs existantes
+            NewTitle.Text = title;
+            NewUsername.Text = username;
+            NewPassword.Text = password;
         }
 
         private void Addbtn_Click(object sender, EventArgs e)
@@ -31,10 +42,21 @@ namespace LockIt
             string password = NewPassword.Text;
 
             Entry entry = new Entry();
-            entry.AddPassword(userId, title, username, password);
+
+            if (isModifyMode)
+            {
+                // Mettre à jour l'entrée existante
+                entry.UpdatePassword(userId, title, username, password);
+            }
+            else
+            {
+                // Ajouter une nouvelle entrée
+                entry.AddPassword(userId, title, username, password);
+            }
 
             this.Close();
         }
+
         public static string GeneratePassword(int length = 12)
         {
             const string validChars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789!@#$%^&*()";
@@ -42,9 +64,11 @@ namespace LockIt
             return new string(Enumerable.Repeat(validChars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
+
         private void Generatebtn_Click(object sender, EventArgs e)
         {
             NewPassword.Text = GeneratePassword();
         }
     }
+
 }
