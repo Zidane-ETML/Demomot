@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0Cw4hwDhgQRmAV+zCjnlGtKKSqQ8zUHxe22esVCbPESTYjIw6qhmzj8+rOfm5+a3bicNIK/DDeWn7xw5ChLwSw==",
+  "dgSpecHash": "EiD1Wi5+uUyhqjCOIcS47lFXCQfu6q5qF8FSJTrIu2IrBvJQDC2HwvoosrYJdlDhHexsymfv0oVVoqO/qf1jVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\pd01wvj\\Documents\\GitHub\\Demomot\\AppIndex\\LockIt\\LockIt\\LockIt.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pd01wvj\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\pd01wvj\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\pd01wvj\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
     "C:\\Users\\pd01wvj\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",

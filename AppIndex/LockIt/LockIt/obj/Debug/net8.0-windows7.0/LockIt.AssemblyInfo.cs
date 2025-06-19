@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LockIt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36452392afbbe61f7052a015f3a2e49c0ee325a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1a2c0679b473f1c25ce14f6e42e94e483106b44")]
 [assembly: System.Reflection.AssemblyProductAttribute("LockIt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LockIt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
