@@ -35,10 +35,12 @@ namespace LockIt
             Newbtn = new ToolStripMenuItem();
             Editbtn = new ToolStripMenuItem();
             Deletebtn = new ToolStripMenuItem();
+            refreshToolStripMenuItem = new ToolStripMenuItem();
             Title = new DataGridViewTextBoxColumn();
             Username = new DataGridViewTextBoxColumn();
             Password = new DataGridViewTextBoxColumn();
             dataGridView1 = new DataGridView();
+            LinkCreator = new LinkLabel();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -47,7 +49,7 @@ namespace LockIt
             // 
             menuStrip1.BackColor = Color.SandyBrown;
             menuStrip1.GripStyle = ToolStripGripStyle.Visible;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fichierToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fichierToolStripMenuItem, refreshToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(459, 24);
@@ -64,23 +66,30 @@ namespace LockIt
             // Newbtn
             // 
             Newbtn.Name = "Newbtn";
-            Newbtn.Size = new Size(180, 22);
+            Newbtn.Size = new Size(107, 22);
             Newbtn.Text = "New";
             Newbtn.Click += Newbtn_Click;
             // 
             // Editbtn
             // 
             Editbtn.Name = "Editbtn";
-            Editbtn.Size = new Size(180, 22);
+            Editbtn.Size = new Size(107, 22);
             Editbtn.Text = "Edit";
             Editbtn.Click += Editbtn_Click;
             // 
             // Deletebtn
             // 
             Deletebtn.Name = "Deletebtn";
-            Deletebtn.Size = new Size(180, 22);
+            Deletebtn.Size = new Size(107, 22);
             Deletebtn.Text = "Delete";
             Deletebtn.Click += Deletebtn_Click;
+            // 
+            // refreshToolStripMenuItem
+            // 
+            refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
+            refreshToolStripMenuItem.Size = new Size(58, 20);
+            refreshToolStripMenuItem.Text = "Refresh";
+            refreshToolStripMenuItem.Click += refreshToolStripMenuItem_Click;
             // 
             // Title
             // 
@@ -109,11 +118,23 @@ namespace LockIt
             dataGridView1.Size = new Size(459, 284);
             dataGridView1.TabIndex = 1;
             // 
+            // LinkCreator
+            // 
+            LinkCreator.AutoSize = true;
+            LinkCreator.Location = new Point(344, 287);
+            LinkCreator.Name = "LinkCreator";
+            LinkCreator.Size = new Size(103, 15);
+            LinkCreator.TabIndex = 2;
+            LinkCreator.TabStop = true;
+            LinkCreator.Text = "Created by Zidane";
+            LinkCreator.LinkClicked += LinkCreator_LinkClicked;
+            // 
             // PasswordManager
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(459, 311);
+            Controls.Add(LinkCreator);
             Controls.Add(dataGridView1);
             Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -143,5 +164,7 @@ namespace LockIt
         private DataGridViewTextBoxColumn Username;
         private DataGridViewTextBoxColumn Password;
         private DataGridView dataGridView1;
+        private ToolStripMenuItem refreshToolStripMenuItem;
+        private LinkLabel LinkCreator;
     }
 }

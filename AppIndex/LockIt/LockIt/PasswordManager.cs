@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -34,7 +35,6 @@ namespace LockIt
         }
         private void SetupDataGridView()
         {
-            // Utilise le nom correct du DataGridView
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = Color.LightGray;
             dataGridView1.GridColor = Color.Black;
@@ -61,16 +61,13 @@ namespace LockIt
             {
                 DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
 
-                // Récupère les données de la ligne sélectionnée
                 string title = selectedRow.Cells["title"].Value.ToString();
                 string username = selectedRow.Cells["username"].Value.ToString();
                 string password = selectedRow.Cells["password"].Value.ToString();
 
-                // Ouvre un formulaire de modification avec les données existantes
                 NewEntry modifyEntryForm = new NewEntry(userId, title, username, password);
                 if (modifyEntryForm.ShowDialog() == DialogResult.OK)
                 {
-                    // Recharge les mots de passe pour mettre à jour le DataGridView
                     LoadPasswords();
                 }
             }
@@ -89,13 +86,11 @@ namespace LockIt
                 DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
                 string title = selectedRow.Cells["title"].Value.ToString();
 
-                // Demande confirmation avant de supprimer
                 if (MessageBox.Show($"Êtes-vous sûr de vouloir supprimer l'entrée '{title}' ?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     Entry entry = new Entry();
                     entry.DeletePassword(userId, title);
 
-                    // Recharge les mots de passe pour mettre à jour le DataGridView
                     LoadPasswords();
                 }
             }
@@ -103,6 +98,18 @@ namespace LockIt
             {
                 MessageBox.Show("Veuillez sélectionner une entrée à supprimer.");
             }
+        }
+
+        private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadPasswords();
+        }
+
+        private void LinkCreator_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string githubUrl = "https://github.com/Zidane-ETML";
+
+            Process.Start(new ProcessStartInfo(githubUrl) { UseShellExecute = true });
         }
     }
 }
